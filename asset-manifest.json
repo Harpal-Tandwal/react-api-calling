@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HpNews/static/css/main.8887880b.css",
+    "main.js": "/HpNews/static/js/main.71132a96.js",
+    "index.html": "/HpNews/index.html",
+    "main.8887880b.css.map": "/HpNews/static/css/main.8887880b.css.map",
+    "main.71132a96.js.map": "/HpNews/static/js/main.71132a96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8887880b.css",
+    "static/js/main.71132a96.js"
+  ]
+}
