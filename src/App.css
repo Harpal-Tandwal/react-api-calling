@@ -1,0 +1,83 @@
+.card-container{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+.news-card{
+    width: 350px;
+    height:500px;
+    /* border:7px solid red */
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 24px;
+    box-shadow: 2px 4px 2px grey;
+    position:relative;
+}
+.news-card :hover{
+    box-shadow: 2px 2px 2px rgb(155, 103, 103);
+
+}
+.news-card img {
+    width: 350px;
+    height:250px;
+   
+}
+.news-card .author{
+    color:red;
+    margin: 5px;
+    height: 30px;
+    font-size: smaller;
+}
+.news-card .title{
+    color:goldenrod;
+    margin: 5px;
+    height: 60px;
+    overflow-y: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.news-card .description{
+    overflow: hidden;
+    margin: 5px;
+    height: 110px;
+    z-index: -2;
+}
+.news-card .read-more{
+    color:aqua;
+    position:absolute;
+    background-color: grey;
+    z-index: -1;
+    
+    bottom: 0px;
+    width:350px;
+    height: 20px;
+   text-align: center;
+   
+}
+
+
+/* *****************   CSS FOR NAVBAR   ************** */
+
+.navbar{
+    display: flex;
+    height: 36px;
+    width: 100%;
+    z-index: 1;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.937);
+   text-align: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+}
+.navbar a{
+  margin-left: 20px;
+  border-left:1px solid rgba(0, 128, 0, 0.766) ;
+  line-height: 30px;
+  text-decoration: none;
+  color:chartreuse;
+  padding-left:10px;
+  flex :2;
+
+  
+   
+}
